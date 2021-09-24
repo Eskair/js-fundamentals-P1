@@ -9,6 +9,7 @@ function exercise3() {
   // -----------------------------------------------------------------
   for (let number = 1; number < 6; number++) {
     console.log(number);
+    // comment
   }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
