@@ -18,11 +18,30 @@ function exercise7() {
   // It's 13h. Time to train!
   // ...
   //
-  // Use interpolation to build your output string
+  // Write a loop that will output every hour of the day (0 to 23) and
   // e.g. `It's ${number}h. Time to train!`
   //
   // Write code between the lines (below)
+    
   // -----------------------------------------------------------------
+
+  for (let hour=0; hour<=23; hour++) {
+    if (5>=hour||hour>=22) {
+      console.log( "It's " + hour +"h."+ " Time to sleep!");
+    }else if (6==hour||hour==12||hour==18) {
+      console.log("It's " + hour +"h."+  " Time to eat!");
+    }
+    else {
+      console.log("It's " + hour +"h."+  " Time to train!");
+    }
+}
+
+
+
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

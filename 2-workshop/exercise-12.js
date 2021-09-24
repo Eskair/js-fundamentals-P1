@@ -14,7 +14,20 @@ function exercise12() {
   // EXPECTED OUTPUT: [2, 3, 5, 7, 11, 13, ...]
   //
   // Write code between the lines (below)
+
   // -----------------------------------------------------------------
+  for (let counter = 2; counter <= 200; counter++) {
+
+    let notPrime = false;
+    for (let i = 2; i <= counter; i++) {
+        if (counter%i===0 && i!==counter) {
+            notPrime = true;
+        }
+    }
+    if (notPrime === false) {
+                console.log(counter);
+    }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

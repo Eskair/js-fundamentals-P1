@@ -12,6 +12,9 @@ function exercise10() {
   // #######
   //
   // Write code between the lines (below)
+  for(let line="#";line.length<8;line+="#"){
+    console.log(line);
+  }
   // -----------------------------------------------------------------
   // -----------------------------------------------------------------
   // Write code between the lines (above)
@@ -21,9 +24,11 @@ function exercise10() {
   //
   //
   //
-}
+} 
 
 // Once you are done type the following in the terminal to test your answer(s).
-// yarn test exercise-10
+// yarn test exercise-10 
+// yarn test exercise-10 
+// yarn test exercise-10 
 
 module.exports = exercise10;

@@ -20,6 +20,15 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  var fibonacci = function (n) {
+    let n1 = 1; n2 = 1;
+    for (let i = 2; i < n; i++) {
+        [n1, n2] = [n2, n1 + n2]
+    }
+    return n2
+}
+fibonacci(50)
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

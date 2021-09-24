@@ -5,11 +5,9 @@ the Hamburglar swooped in and jumbled our code. We still have all the right
 pieces, but they're in the wrong order!
 
 Your mission is to rearrange each line of code so that it forms a coherent
-program, and solves the given problem.
+program, and solves the given problem
 
-_NOTE:_ The lines don't include any indentation (since that would give the
-answer away). You should add indentation as appropriate (see example)
-
+_NOTE:_ The lines don't include any indentation (since that would give the answer away). You should add indentation as appropriate (see example)
 _ANOTHER NOTE:_ There may be more than 1 correct answer. If multiple variables
 are declared in a row, the order doesn't matter.
 
@@ -52,8 +50,13 @@ Put your solution between the ```:
 _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
-// Your solution here!
+4.   let sentence = 'Hello world!';
+3.   if (sentence.includes('Hello')) {
+2.      console.log('Sentence DOES contain the word "Hello"');
 
+5.    } else {
+1.     console.log('Sentence DOES NOT contain the word "Hello"');
+6.    }
 ```
 
 ## Question 2: Get the specified item in the nested array
@@ -66,6 +69,12 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+2. const array = [[1, [2, 3]]];
+1. const first = 0;
+4. const second = 1;
+5. const third = 0;
+3. console.log(array[first][second][third])
 
 ```
 
@@ -80,6 +89,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+2. let currentNum = 10;
+4. let min = 5;
+5. currentNum = currentNum - 1;
+1. while (currentNum > min) {
+3. console.log(currentNum);
+6. }
+
 
 ```
 
@@ -96,6 +112,16 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+5. if (reversedString.includes('treasure')) {
+7. const reversedString = reversedArray.join('');
+1. const reversedArray = letterArray.reverse();
+3. const letterArray = encodedMessage.split('');
+4. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+2. console.log('Your message:', reversedString)
+6. }
+
+
+
 ```
 
 ## Question 5: Add all the numbers from 10 to 0
@@ -110,6 +136,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+6. let count = 10;
+3. let total = 0;
+4. count = count - 1;
+2.while (count > 0) {
+5.   console.log('The total is:', total)}
+1. total = total + count;
+
 
 ```
 
@@ -127,5 +160,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+1. }
+4. for (let i = 0; i < array.length; i++) {
+6. if (item === numberToSearchFor) {
+5. let item = array[i];
+2. let includesNumber;
+7. let numberToSearchFor = 5;
+8. let array = [1, 3, 7, 4, 5, 2, 1];
+3. console.log('Array includes the number!')
+9. }
 
 ```
